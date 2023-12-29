@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#head{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        i{
+            font-size: 20px;
+        }
+    }
+}
+#fashi{
+    width: 100%;
+    height: 630px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://preview.colorlib.com/theme/fashi/img/hero-1.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .fashiitem{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 20px;
+        position: relative;
+        span{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: #E7AB3C;
+            font-weight: 700;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+    margin-bottom: 10px;
+        }
+        p{
+            font-size: 16px;
+            color: gray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 160px;
+            height: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            background-color: #E7AB3C;
+            color: white;
+            cursor: pointer;
+        }
+       
+    }
+}
+}
+#fashiperson{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .fashipersoncard{
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .txt{
+                background-color: white;
+                position: absolute; 
+                width: 150px;
+                height: 45px;
+                padding-left: 30px;
+                padding-top: 10px;
+                h5{
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+#clothing{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .clothingbox{
+           
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+img{
+    width: 100%;
+    height: 535px;
+}
+            .clothingtext{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    font-size: 30px;
+                    color: white;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 600;
+                }
+                .line{
+                    width: 80px;
+                    height: 3px;
+                    background-color: white;
+                }
+            }
+        }
+            #ApiProducts{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #F7F8F1;
+                .container{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    .ApiProductsHeader{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            gap: 30px;
+                            li{
+                                font-size: 25px;
+                                color: gray;
+                                cursor: pointer;
+                            }
+                        }
+            
+                    }
+                    #productList{
+                        width: 100%;
+                        height: auto;
+                        background-color: #F7F8F1;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        gap: 5px;
+                        .boxDiv{
+                           width: 10%;
+                            display: flex;
+                            justify-content: center;
+                            text-align: center;
+                            flex-direction: column;
+                            padding: 5px;
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                            .title{
+                                font-size: 20px;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                                font-weight: 600;
+                            }
+                            .price{
+                                font-size: 20px;
+                                font-weight: 600; 
+                                color:red;
+                            }
+                            button{
+                                margin-top: 20px;
+                                margin-bottom: 20px; 
+                                width: 100%;
+                                height: 40px;
+                                border: none;
+                                background-color: #E7AB3C;
+                                color: white;
+                                border-radius: 8px;
+                                font-weight: 600;
+                                &:hover{
+                                    background-color: black;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    #pagi{
+                       
+                        width: auto;
+                        padding: 10px;
+                        border: none;
+                        background-color:black;
+                        color: white;
+                        border-radius:5px ;
+                        &:hover{
+                            background-color:brown ;
+                        }
+                    }
+                }
+            }
+                    }
+                   
+                }
+            
+        
+#deal{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://preview.colorlib.com/theme/fashi/img/time-bg.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .dealItem{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+           
+            h3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 30px;
+                font-weight: 700;
+            }
+            p{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+                color: gray;
+            }
+            .one{
+                color: gray;
+                strong{
+                    font-size: 20px;
+                color: #E7AB3C;
+                }
+            }
+            button{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 160px;
+                height: 50px;
+                text-transform: uppercase;
+                font-weight: 700;
+                border: none;
+                background-color: #E7AB3C;
+                color: white;
+                cursor: pointer;
+            
+            }
+            .box{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                flex-wrap: wrap;
+                .boxdiv{
+                    width: 80px;
+                    height: 90px;
+                    border-radius: 10px;
+                    background-color: white;
+                }
+            }
+            
+        }
+        
+      }
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        border-top: 1px solid rgb(228, 220, 220);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            .foot{
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+            }
+        }
+    }

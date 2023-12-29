@@ -1,0 +1,665 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+#head {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#head .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+#head .icon i {
+  font-size: 20px;
+}
+
+#fashi {
+  width: 100%;
+  height: 630px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/hero-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#fashi .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fashi .container .fashiitem {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+#fashi .container .fashiitem span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #E7AB3C;
+  font-weight: 700;
+}
+#fashi .container .fashiitem h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashi .container .fashiitem p {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashi .container .fashiitem button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #E7AB3C;
+  color: white;
+  cursor: pointer;
+}
+
+#fashiperson {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fashiperson .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fashiperson .container .fashipersoncard {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fashiperson .container .fashipersoncard img {
+  width: 100%;
+  height: auto;
+}
+#fashiperson .container .fashipersoncard .txt {
+  background-color: white;
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+#fashiperson .container .fashipersoncard .txt h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#clothing {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clothing .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#clothing .container .clothingbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#clothing .container .clothingbox img {
+  width: 100%;
+  height: 535px;
+}
+#clothing .container .clothingbox .clothingtext {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clothing .container .clothingbox .clothingtext h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+#clothing .container .clothingbox .clothingtext p {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+#clothing .container .clothingbox .clothingtext .line {
+  width: 80px;
+  height: 3px;
+  background-color: white;
+}
+#clothing .container #ApiProducts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F8F1;
+}
+#clothing .container #ApiProducts .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#clothing .container #ApiProducts .container .ApiProductsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#clothing .container #ApiProducts .container .ApiProductsHeader ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#clothing .container #ApiProducts .container .ApiProductsHeader ul li {
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+}
+#clothing .container #ApiProducts .container #productList {
+  width: 100%;
+  height: auto;
+  background-color: #F7F8F1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#clothing .container #ApiProducts .container #productList .boxDiv {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+}
+#clothing .container #ApiProducts .container #productList .boxDiv img {
+  width: 100%;
+  height: auto;
+}
+#clothing .container #ApiProducts .container #productList .boxDiv .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#clothing .container #ApiProducts .container #productList .boxDiv .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+#clothing .container #ApiProducts .container #productList .boxDiv button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #E7AB3C;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#clothing .container #ApiProducts .container #productList .boxDiv button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+#clothing .container #ApiProducts .container #pagi {
+  width: auto;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#clothing .container #ApiProducts .container #pagi:hover {
+  background-color: brown;
+}
+
+#deal {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/time-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#deal .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#deal .container .dealItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#deal .container .dealItem h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#deal .container .dealItem p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: gray;
+}
+#deal .container .dealItem .one {
+  color: gray;
+}
+#deal .container .dealItem .one strong {
+  font-size: 20px;
+  color: #E7AB3C;
+}
+#deal .container .dealItem button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #E7AB3C;
+  color: white;
+  cursor: pointer;
+}
+#deal .container .dealItem .box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+#deal .container .dealItem .box .boxdiv {
+  width: 80px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+#head {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#head .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+#head .icon i {
+  font-size: 20px;
+}
+
+#fashi {
+  width: 100%;
+  height: 630px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/hero-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#fashi .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fashi .container .fashiitem {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+#fashi .container .fashiitem span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #E7AB3C;
+  font-weight: 700;
+}
+#fashi .container .fashiitem h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashi .container .fashiitem p {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashi .container .fashiitem button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #E7AB3C;
+  color: white;
+  cursor: pointer;
+}
+
+#Productfiltered {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #F4F1E9;
+}
+#Productfiltered .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Product {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #F4F1E9;
+}
+#Product .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Product .container #products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+#Product .container #products .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+#Product .container #products .box img {
+  width: 100%;
+  height: auto;
+}
+#Product .container #products .box .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#Product .container #products .box .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+#Product .container #products .box button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #E7AB3C;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#Product .container #products .box button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+#head {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#head .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+#head .icon i {
+  font-size: 20px;
+}
+
+#fashi {
+  width: 100%;
+  height: 630px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/hero-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#fashi .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fashi .container .fashiitem {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+#fashi .container .fashiitem span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #E7AB3C;
+  font-weight: 700;
+}
+#fashi .container .fashiitem h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashi .container .fashiitem p {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fashi .container .fashiitem button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #E7AB3C;
+  color: white;
+  cursor: pointer;
+}
+
+#FormMethod {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #F7F8F1;
+  background-position: center;
+  background-size: cover;
+}
+#FormMethod .container {
+  margin-top: 20px;
+}
+#FormMethod .container p {
+  font-size: large;
+  font-weight: 700;
+}
+#FormMethod .container label {
+  color: black;
+}
+#FormMethod .container input {
+  border: 2px solid black;
+}
+
+#displayCard .container #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#displayCard .container #display .box {
+  width: 250px;
+  padding: 25px;
+  background-color: bisque;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#displayCard .container #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#displayCard .container #display .box button {
+  color: #fff;
+  background-color: brown;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+#displayCard .container #display .box button:hover {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
